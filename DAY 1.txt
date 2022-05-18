@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class todo {
+	public static void main(String[] args) {
+		String day;
+		System.out.println("Enter day");
+		Scanner sc=new Scanner(System.in);
+		day=sc.next();
+		switch(day) {
+		case "sunday":{
+			System.out.println("Sunday   -> Holiday");
+			break;
+		}
+		case "monday":{
+			System.out.println("Monday   -> Go for a walk");
+			break;
+		}
+		case "tuesday":{
+			System.out.println("Tuesday  -> Do homework");
+			break;
+		}
+		case "wednesday":{
+			System.out.println("Wednesday   -> Do grocery shopping");
+			break;
+		}
+		case "thursday":{
+			System.out.println("Thrusday -> Go for work");
+			break;
+		}
+		case "friday":{
+			System.out.println("Friday   -> Do cleaning");
+			break;
+		}
+		case "saturday":{
+			System.out.println("saturday -> Take classes");
+			break;
+		}
+		default:
+			System.out.println("No operation");
+			
+		}
+		
+	}
+		
+}
